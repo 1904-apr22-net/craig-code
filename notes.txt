@@ -1,2 +1,5 @@
-just some text
-no big deal
+git add <path>
+    stage all local changes to any files/folders
+    at/under that path.
+    usually: "git add ." from the top-level repo folder.
+    
