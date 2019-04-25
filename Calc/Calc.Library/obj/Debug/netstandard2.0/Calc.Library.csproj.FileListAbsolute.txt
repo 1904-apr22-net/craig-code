@@ -1,9 +1,0 @@
-/Users/craig/Revature/CS/Calc/Calc.Library/bin/Debug/netstandard2.0/Calc.Library.deps.json
-/Users/craig/Revature/CS/Calc/Calc.Library/bin/Debug/netstandard2.0/Calc.Library.dll
-/Users/craig/Revature/CS/Calc/Calc.Library/bin/Debug/netstandard2.0/Calc.Library.pdb
-/Users/craig/Revature/CS/Calc/Calc.Library/obj/Debug/netstandard2.0/Calc.Library.csprojAssemblyReference.cache
-/Users/craig/Revature/CS/Calc/Calc.Library/obj/Debug/netstandard2.0/Calc.Library.csproj.CoreCompileInputs.cache
-/Users/craig/Revature/CS/Calc/Calc.Library/obj/Debug/netstandard2.0/Calc.Library.AssemblyInfoInputs.cache
-/Users/craig/Revature/CS/Calc/Calc.Library/obj/Debug/netstandard2.0/Calc.Library.AssemblyInfo.cs
-/Users/craig/Revature/CS/Calc/Calc.Library/obj/Debug/netstandard2.0/Calc.Library.dll
-/Users/craig/Revature/CS/Calc/Calc.Library/obj/Debug/netstandard2.0/Calc.Library.pdb
