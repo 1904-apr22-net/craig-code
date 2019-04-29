@@ -3,13 +3,13 @@ using System.Collections.Generic;
 
 namespace Palindrome.Library
 {
-    public class PalindromeCheck
+    public class PalindromeChecker
     {
         public bool IsPalindrome(string str)
         {
+            // creating a list to store str with only lowercase alphanumeric chars
             var strList = new List<char>();
             str = str.ToLower();
-            Console.WriteLine(str);
             foreach(char c in str)
             {
                 if(c != ' ' && Char.IsLetterOrDigit(c))
@@ -18,8 +18,10 @@ namespace Palindrome.Library
                 }
             }
 
+            // initialize iterator to start from the back of strList
             int j = strList.Count - 1;
 
+            // Compare chars from opposite ends of strList and return false if not equal
             for(int i=0; i<j; i++)
             {
                 if(strList[i] != strList[j])
@@ -29,6 +31,7 @@ namespace Palindrome.Library
                 j--;
             }
             
+            // strList is a palindrome
             return true;
         }
     }

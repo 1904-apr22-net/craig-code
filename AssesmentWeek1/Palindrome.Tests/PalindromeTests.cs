@@ -9,7 +9,7 @@ namespace Palindrome.Tests
         [Fact]
         public void CheckIsPalindromeTrue1()
         {
-            var a = new PalindromeCheck();
+            var a = new PalindromeChecker();
 
             Assert.True(a.IsPalindrome("nurses run"));
         }
@@ -17,7 +17,7 @@ namespace Palindrome.Tests
         [Fact]
         public void CheckIsPalindromeTrue2()
         {
-            var a = new PalindromeCheck();
+            var a = new PalindromeChecker();
 
             Assert.True(a.IsPalindrome("never odd, or even"));
         }
@@ -25,7 +25,7 @@ namespace Palindrome.Tests
         [Fact]
         public void CheckIsPalindromeTrue3()
         {
-            var a = new PalindromeCheck();
+            var a = new PalindromeChecker();
 
             Assert.True(a.IsPalindrome("racecaR"));
         }
@@ -33,7 +33,7 @@ namespace Palindrome.Tests
         [Fact]
         public void CheckIsPalindromeTrue4()
         {
-            var a = new PalindromeCheck();
+            var a = new PalindromeChecker();
 
             Assert.True(a.IsPalindrome("1221"));
         }
@@ -41,7 +41,7 @@ namespace Palindrome.Tests
         [Fact]
         public void CheckIsPalindromeFalse1()
         {
-            var a = new PalindromeCheck();
+            var a = new PalindromeChecker();
 
             Assert.False(a.IsPalindrome("one to one"));
         }
@@ -49,7 +49,7 @@ namespace Palindrome.Tests
         [Fact]
         public void CheckIsPalindromeFalse2()
         {
-            var a = new PalindromeCheck();
+            var a = new PalindromeChecker();
 
             Assert.False(a.IsPalindrome("123abccba123"));
         }
@@ -57,7 +57,7 @@ namespace Palindrome.Tests
         [Fact]
         public void CheckIsPalindromeFalse3()
         {
-            var a = new PalindromeCheck();
+            var a = new PalindromeChecker();
 
             Assert.False(a.IsPalindrome("This probably isnt a palindrome"));
         }
@@ -65,7 +65,7 @@ namespace Palindrome.Tests
         [Fact]
         public void CheckIsPalindromeFalse4()
         {
-            var a = new PalindromeCheck();
+            var a = new PalindromeChecker();
 
             Assert.False(a.IsPalindrome("asdf[]fd[as"));
         }
