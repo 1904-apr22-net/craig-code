@@ -1,0 +1,15 @@
+*{
+    padding: 2pt;
+    border: 10pt thick red;
+    background-color: beige;
+}
+
+img{
+    border: thick orange;
+}
+
+div{
+    background-color: yellow;
+    width: 600px;
+    font-size: 14pt;
+}
