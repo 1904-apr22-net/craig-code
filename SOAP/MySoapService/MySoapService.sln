@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.452
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MySoapService", "MySoapService\MySoapService.csproj", "{EEA933AB-96A8-4A1F-AAC1-19448C5BE852}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EEA933AB-96A8-4A1F-AAC1-19448C5BE852}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEA933AB-96A8-4A1F-AAC1-19448C5BE852}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEA933AB-96A8-4A1F-AAC1-19448C5BE852}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEA933AB-96A8-4A1F-AAC1-19448C5BE852}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {67302891-CAE7-4E81-9A3B-397350F17B00}
+	EndGlobalSection
+EndGlobal
